@@ -9,7 +9,7 @@
  */
 import java.util.Scanner; // Aqui importo a classe scanner aqui
 
-class MySum {
+public class exercice002 {
     public static void main(String args[]) {
         Scanner sum = new Scanner(System.in); // Aqui instancio e crio um objeto Scanner
 
