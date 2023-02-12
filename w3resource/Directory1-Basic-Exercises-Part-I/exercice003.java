@@ -20,5 +20,7 @@ public class exercice003 {
         int b = divisao.nextInt();
 
         System.out.printf("d% / d% = 3d%", a, b, (a / b));
+
+        divisao.close();
     }
 }

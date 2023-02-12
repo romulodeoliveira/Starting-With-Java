@@ -20,5 +20,7 @@ public class exercice002 {
         int b = sum.nextInt();
 
         System.out.printf("%d + %d = %d", a, b, (a + b));
+
+        sum.close();
     }
 }
