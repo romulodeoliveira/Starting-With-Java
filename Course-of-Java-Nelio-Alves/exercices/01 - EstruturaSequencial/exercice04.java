@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
 
-public class exercice005 {
+public class exercice04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numeroDoFuncionario, horasTrabalhadas;

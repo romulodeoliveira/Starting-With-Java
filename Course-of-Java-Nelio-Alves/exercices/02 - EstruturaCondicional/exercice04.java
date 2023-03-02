@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class exercice011 {
+public class exercice04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int code, quantity;

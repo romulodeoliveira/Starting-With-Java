@@ -4,7 +4,7 @@ Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do j
 
 import java.util.Scanner;
 
-public class exercice015 {
+public class exercice08 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a, b;

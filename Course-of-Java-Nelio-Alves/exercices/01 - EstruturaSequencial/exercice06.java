@@ -10,7 +10,7 @@
 
 import java.util.Scanner;
 
-public class exercice007 {
+public class exercice06 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double A, B, C;

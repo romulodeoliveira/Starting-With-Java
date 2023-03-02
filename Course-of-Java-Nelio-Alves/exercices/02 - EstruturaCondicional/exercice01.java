@@ -1,10 +1,10 @@
 /*
- * Fazer um programa para ler um número inteiro e dizer se este número é par ou ímpar.
+ * Fazer um programa para ler um número inteiro, e depois dizer se este número é negativo ou não.
  */
 
 import java.util.Scanner;
 
-public class exercice009 {
+public class exercice01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n;
@@ -12,14 +12,13 @@ public class exercice009 {
         System.out.print("Digite um número: ");
         n = sc.nextInt();
 
-        if ((n % 2) == 0) {
-            System.out.println("PAR");
+        if (n > 0 || n == 0) {
+            System.out.println("NÃO NEGATIVO.");
         }
 
         else {
-            System.out.println("IMPAR");
+            System.out.println("NEGATIVO.");
         }
-
         sc.close();
     }
 }

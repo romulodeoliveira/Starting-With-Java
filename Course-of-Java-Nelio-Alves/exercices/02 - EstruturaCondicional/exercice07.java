@@ -8,7 +8,7 @@ Lembre que, se o salário for R$ 3002.00, a taxa que incide é de 8% apenas sobr
 
 import java.util.Scanner;
 
-public class exercice014 {
+public class exercice07 {
     public static void main(String[] args) {
         System.out.println("------------------------------------------------------------");
         System.out.printf("%30s %20s%n", "Renda", "Imposto de Renda");
