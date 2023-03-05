@@ -13,9 +13,9 @@ public class Caneta {
     // atributo
     public String modelo;
     public String cor;
-    private float ponta;
+    protected float ponta;
     protected int carga;
-    protected boolean tampada;
+    private boolean tampada;
 
     // metodo
     public void status() {
@@ -65,12 +65,12 @@ public class Caneta {
     }
 
     // metodo
-    private void tampar() {
+    public void tampar() {
         this.tampada = true;
     }
 
     // metodo
-    private void destampar() {
+    public void destampar() {
         this.tampada = false;
     }
 }
